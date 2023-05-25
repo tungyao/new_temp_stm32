@@ -1,11 +1,11 @@
-#include "main.h"
+#include "stm32f1xx_hal.h"
 #include "gpio.h"
 // 定义模拟I2C的GPIO口和定时器
-#define SDA_PIN 7
+#define SDA_PIN 11
 #define SDA_GPIO GPIOB
 #define SDA_RCC RCC_APB2Periph_GPIOB
 
-#define SCL_PIN 8
+#define SCL_PIN 10
 #define SCL_GPIO GPIOB
 #define SCL_RCC RCC_APB2Periph_GPIOB
 
